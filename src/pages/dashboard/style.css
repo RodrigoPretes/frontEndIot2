@@ -1,3 +1,9 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .posicao{
     display: grid;
     grid-template-columns: 250px auto;
@@ -7,11 +13,30 @@
     'AS MH'
     'AS CT' ;
     
+    
 }
 .dashboard{
     grid-area: CT;
-    background-color: var(--cor-primary);
-    color:var(--cor-white);
+    background-color: var(--cor-gray-intense);
+    /*color:var(--cor-white);*/
     height: 100vh;
-    padding: 30px 20px;
+    width: 100%;
+    padding: 20px 20px;
+
+}
+.graficos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: none;
+    cursor: pointer;
+    position: fixed;
+    width: 100vh;
+}
+.erroHistorico{
+    color: brown;
+}
+.styleGraph{
+    box-shadow: 0 2px 4px rgba(0.5, 0.5, 0.5, 0.5), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }

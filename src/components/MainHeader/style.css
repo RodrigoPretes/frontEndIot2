@@ -4,12 +4,12 @@
     top: 0;
     grid-area: MH;
     min-height: 70px;
-    background-color: var(--cor-tertiary);
-    color:var(--cor-white);
+    background-color: var(--cor-gray-intense);
+    color:var(--cor-black);
     display: flex;
     align-items: center;
     justify-content: center;
 
-    border-bottom: 2px solid rgba(94, 94, 94, 0.678);
+    /*border-bottom: 2px solid rgba(94, 94, 94, 0.678);*/
 }
 

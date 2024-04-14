@@ -15,7 +15,6 @@ function Aside(){
         <div className='aside'>
             <div className='login-aside'>
                 <h3>Estação Meteorológica</h3>
-                <img className='img-logado' src="../logado.jpg" alt="" />
                 <span>bem vindo {nomeDoUsuario}</span>
 
 
@@ -26,13 +25,14 @@ function Aside(){
                             <li><img className='icon-aside' src="../layout.png" alt="" /> <Link to='/' className='link-aside'>Dashboard</Link></li>
                             <li><img className='icon-aside' src="../database-management.png" alt="" /><Link to='/list' className='link-aside'>Histórico de Leitura</Link></li>
                         </ul>
-                        <button className='botao-deslogar' onClick={hundleLogout} ><img src="../logout.png" alt="" /> Deslogar</button>
+                        
                     </div>
                 </div>
             </div>
            
 
             <div className='footer-aside'>
+            <button className='botao-deslogar' onClick={hundleLogout} ><img src="../logout.png" alt="" /> Deslogar</button>
                 <h1>Trabalho iot2</h1>
                 <span>Puc Minas</span>
             </div>
